@@ -74,4 +74,55 @@ Reason: The data is not very clear
 
 
 
+
+
+
+
+
+
+
+
+___________________________________________________    Task 2  ___________________________________________
+
+
+Problem Statement:
+
+extract the following:
+
+- Currency
+
+- Amount
+
+- Rounding (up / down/ nearest) If not mentioned, take it as 'nearest' by default.
+
+for 'Delivery Amount' and 'Return Amount'.
+ 
+
+We have included the textual data in isda_data.json. Refer sample_isda.py for the basic implementation framework.
+
+Input: "Rounding. The Delivery Amount and the Return Amount will be rounded to the nearest integral multiple o f EUR 100,000; provided that if an amount corresponds to the exact half o f such multiple, then it will be rounded up; and provided further that, for the purpose o f the calculation of the Return Amount where a party's Credit Support Amount is, or is deemed to be, zero, the Return Amount shall not be rounded."
+
+Output:
+
+{
+
+"delivery_currency": "EUR",
+
+"delivery_amount": "100,000",
+
+"delivery_rounding": "nearest",
+
+"return_currency": "EUR",
+
+"return_amount": "100,000",
+
+"return_rounding": "nearest"
+
+}
+
+
+
+
+
+
  
