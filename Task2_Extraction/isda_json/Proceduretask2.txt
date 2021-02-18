@@ -1,0 +1,9 @@
+Extraction:
+
+Run the final_isda.py
+Note: should have isda_json.json in the same folder
+wohooo!!!!!! Get the output and get a binary score to verify results
+
+
+
+Done and Done!

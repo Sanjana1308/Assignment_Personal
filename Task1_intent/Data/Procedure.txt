@@ -1,0 +1,6 @@
+1) Create a venv
+2) Install the dependencies through requiremnts.txt
+3) Run the intent_binary_classifier jupyter file
+4) Run the intent_prediction ipython notebook to test the model on test data
+
+P.S: Sorry, for the mismanaged code and repository, could only do this in weekday
