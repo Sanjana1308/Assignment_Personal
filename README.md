@@ -121,6 +121,22 @@ Output:
 }
 
 
+APPROACH TO THE PROBLEM:
+
+This can be done using 2 methods:
+
+1) dependency parsing :
+
+using coreNLP and NLTK to POS tag and extract Noun Phrase like the " The delivery amount and return amount" and " rounded to/up/down" to Verb phrase but uploading the 600 mb to github was senseless.
+
+
+2) rule-based approach
+
+1) can use price parser to extract currency and amount in next versions but went with normal approach for this version
+2) analysed the text to conclude that text after "provided" was irrelevant
+3) used some logic to fill in the code in sample.py
+
+
 
 
 
